@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    position: fixed;
+    display: inline;
+}
+h2{
+    color:rgb(6, 6, 146);
+    margin-top: 10px
+        /**list-style-type: none**/;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+
+.nav--menu__flex{
+    display:flex;
+    flex-direction: row;
+    height: 60;
+    justify-content: end;
+    column-gap: 35px;
+    align-items: center;
+        
+}
+
+li{
+    list-style: none;
+        
+}
+
+.clasedeapoyo{
+    background-color: rgb(170, 240, 245);
+    width: 400px;
+    height: 300px;
+    overflow-y: auto;
+    margin:50px;
+    padding: 10px;
+    /*margin: 10px 20px 30px 40px;*/
+    /*border: double 4px blue;*/
+    /*display: inline-block;*/
+      
+}
+/*.bloqueapoyo{
+    background-color: beige;
+    overflow-y: auto;
+    width: 250px;
+    height: 100px;
+       
+}
+
+/**.descripcion__primaria{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}**/
+
+.cursodeingresos{
+    background-color: rgb(3, 118, 126);
+    width: 400px;
+    height: 300px;
+    overflow-y: auto;
+    margin: 50px;
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+    height: 60;
+    justify-content: center;
+    column-gap: 35px;
+    align-items: center;
+}
+    
+.general{
+    width: calc(100vw / 2 - -500px);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: rgb(167, 236, 236);
+    border-radius: 15px;
+}
+.general--imagen{
+    flex: 1 1 200px;
+    align-items: center;
+    display: flex;
+
+}
+
+.general--contenido{
+    flex: 1 1 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+        
+}
+
+.general--contenido2{
+    flex: 1 1 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.contacto{
+    width: 400px;
+    justify-content: center;
+    display: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: rgb(167, 236, 236);
+    border-radius: 15px;
+}
+
+.elementoclass{
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
