@@ -121,6 +121,35 @@ article {
     padding: 15px;
 }
 
+.clasedeapoyo {
+    background: linear-gradient(to bottom, blue, aqua, lightgrey);
+
+}
+
+.ingreso {
+    background: linear-gradient(to bottom, rgb(138, 77, 173), rgb(230, 173, 212), lightgrey);
+    
+}
+
+.general--imagen {
+    transform: rotate(-10deg) translate(50px, 20px);
+}
+
+p {
+     animation-duration: 2s;
+     animation-name: aparecer;
+     animation-iteration-count: infinite;
+    }
+    
+    @keyframes aparecer {
+        0% {opacity: 0;
+        }
+        100% {opacity: 1;}
+    }
+
+
+
+
 
 /*.nav--menu__flex{
     display:flex;
