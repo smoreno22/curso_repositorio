@@ -10,33 +10,67 @@
 </head>
 
 <body>
-    <div id="grilla">
+    <!--<div id="grilla">-->
+    
     <header>
-        <h1>Educación SOS</h1>
-        <!--<img src="assets/image/Logo2.png" height="15%" width="25%"> -->
-    </header> 
-        <nav>
+        <a> <img src="assets/image/logo.jpg" alt="logo" width="150px"> <h1>Educación SOS</h1></a>    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">    
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">    
+                <div class="container-fluid">
+                     <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/niveles.html">Niveles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+    </header>
+
             
-            <ul class="nav--menu__flex">
+            <!--<ul class="nav--menu__flex">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
                 <li><a href="./pages/servicios.html">Servicios</a></li>                
                 <li><a href="./pages/niveles.html">Niveles</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            </ul>-->
+        
     
+    <div id="grilla">
    <main>
-        <section><!--class="clasedeapoyo"-->
+        <section class="dividirSeccion"><!--class="clasedeapoyo"-->
             <article class="clasedeapoyo"> <!--<article class="primaria"></article>-->
                 <h2>Clases de Apoyo</h2>
-                <a href="assets/image/clasedeapoyo.jpg"><img src="assets/image/clasedeapoyo.jpg" height="200px" width="200px"></a>
+                <div class="imagen">
+                <a href="assets/image/clasedeapoyo.jpg"><img class="imagenapoyo" src="assets/image/clasedeapoyo.jpg" height="200px" width="200px"></a>
+                </div>
                 <p>El objetivo es brindar un sistema de clases individuales o grupales que cubran todas las necesidades de cada alumno, para los niveles de Primaria, Secundaria y Universitario.</p>
             </article>
          </section>
          
          
-        <section> <!--class="cursodeingresos"-->
+        <section class="dividirSeccion"> <!--class="cursodeingresos"-->
             <article class="ingreso"> <!--<article class="ingreso">-->
                 <h2>Curso de Ingresos</h2>
                 <a href="assets/image/ingreso.jpg"><img src="assets/image/ingreso.jpg" height="195px" width="190px"></a>
@@ -44,12 +78,11 @@
                 Entre los colegios que contemplamos están: Nacional Buenos Aires, Carlos Pellegrini y otros más.</p>
             </article>
         </section>
-        
-    
+            
     </main>
-   
+</div> 
     <footer>
-        <!--<div>-->
+        <div class="elementoclass">
              <ul>
                 <strong>Atención: Domicilio 1234 - CABA</strong>
                 <br>
@@ -60,9 +93,9 @@
             <a href="assets/image/whatsapp.jpg"><img src="assets/image/whatsapp.jpg" height="35px" width="35px"></a>
             
         </div>
+        </div>
     </footer>
 
-    </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>

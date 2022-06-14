@@ -5,11 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DemodeWeb - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
-        <h1>Educación SOS</h1>
+        <a> <img src="../assets/image/logo.jpg" alt="logo" width="150px"> <h1>Educación SOS</h1></a>    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./niveles.html">Niveles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!--<h1>Educación SOS</h1>
         <nav>
             <ul class="nav--menu__flex">
                 <li><a href="../index.html">Inicio</a></li>
@@ -18,10 +48,42 @@
                 <li><a href="./niveles.html">Niveles</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </nav>-->
+
     </header>
     <section>
-        <article class="contacto">
+
+        
+
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido">
+        </div>
+
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Teléfono">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+        
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Tipo de Consulta</option>
+            <option value="1">Primaria</option>
+            <option value="2">Secundaria</option>
+            <option value="3">Universitario</option>
+            <option value="4">Otro</option>
+          </select>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+        <!--<article class="contacto">
             
             <form action="#" method="GET" enctype="multipart/form-data">
                 <fieldset>
@@ -55,7 +117,7 @@
             </form>
                 
         </article>
-    </section>
+    </section>-->
     <footer>
         <div class="elementoclass">
             <ul>
@@ -67,6 +129,8 @@
            <a href="../assets/image/whatsapp.jpg"><img src="../assets/image/whatsapp.jpg" heigh="5%" width="5%"></a>
        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
