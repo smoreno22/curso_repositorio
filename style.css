@@ -1,48 +1,31 @@
-/**{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.btn, .btn-enviar {
+  text-align: center;
+  background-color: blue;
+  border-radius: 20px;
 }
 
-h1{
-    color: blue;
-    font-weight: bold;
-    font-size: 30px;
-    font-style: italic;
-    position: fixed;
-    display: inline;
-}
-h2{
-    color:rgb(6, 6, 146);
-    margin-top: 10px
-        /**list-style-type: none;
-}
-h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+.btn-enviar {
+  background-color: green;
 }
 
-.clasedeapoyo{
-    background-color: rgb(170, 240, 245);
-    width: 400px;
-    height: 300px;
-    overflow-y: auto;
-    margin:50px;
-    padding: 10px;
-    
-      
+.whatsapp {
+  background-color: green;
 }
 
+.instagram {
+  background-color: #e464a8;
+}
 
-.grilla{
-    background-color: rgb(206, 245, 170);
-   /* width: 400px;
-    height: 300px;
-    overflow-y: auto;
-    margin:50px;
-    padding: 10px;
-          
-}*/
+.marco {
+  border-color: blue;
+  border-style: dotted;
+}
+
+.marco2 {
+  border-color: red;
+  border-style: double;
+}
+
 body {
   color: #006064;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -64,6 +47,7 @@ nav {
 section {
   /*background-color: #E0F7FA;*/
   background-color: lightgrey;
+  padding: 10px;
 }
 
 header,
@@ -85,29 +69,21 @@ nav {
   font-weight: 500;
 }
 
-nav ul li {
-  display: inline;
-}
-
-ul {
+nav ul {
+  margin-left: -10px;
   list-style-type: none;
 }
 
-header {
-  padding: 30px;
+nav ul li {
+  display: inline;
 }
 
 nav ul a {
   padding: 10px;
 }
 
-nav ul {
-  /* margin-left: -20px;*/
-  margin-left: -10px;
-}
-
-section {
-  padding: 10px;
+header {
+  padding: 30px;
 }
 
 article {
