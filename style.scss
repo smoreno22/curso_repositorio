@@ -7,7 +7,7 @@ $coloresRedes: (whatsapp: green, instagram:rgb(228, 100, 168));
 
 .btn{
     text-align: center;
-    background-color: blue;
+    background-color: rgba(6, 6, 161, 0.886);
     border-radius: 20px;
 
 }
@@ -34,34 +34,29 @@ background-color: $color;
 }
 
 .marco{
-    @include bordesMarco(blue,dotted);
+    @include bordesMarco(#49e484,double);
+    background-color:
+    $colorFondo;
+     
 }
 
 .marco2{
-    @include bordesMarco(red,double);
+    @include bordesMarco(rgba(0, 0, 255, 0.493),double);
 }
 
 body {
-    color: #006064;
+    
     font-family: $tipografiaBody;
 }
 
 #grilla {
     width: 100%;
-    height: 440px;
+    height: 400px;
 }
 
-header,
-footer,
-section,
-article,
-nav {
-    border-radius: 15px;
-}
 
 section {
-    /*background-color: #E0F7FA;*/
-    background-color: lightgrey;
+    background-color: $colorFondo;
     padding: 10px;
     }
 
@@ -69,23 +64,28 @@ header,
 footer,
 nav {
     background-color: $colorHFN;
-    
+      
 }
 
 h1 {
     display: inline;
-    color: blue;
+    color: white;
+    //color: rgb(94, 34, 141);//
     font-weight: bold;
     font-size: 30px;
     font-style: italic;
     
 }
 
+a{
+    text-decoration: none;
+}
+
 //Anidación// 
 nav{
     font-size: large;
     font-weight: 500;
-
+    
     ul {
         margin-left: -10px;
         list-style-type: none;
@@ -102,35 +102,47 @@ nav{
 
 
 header {
-    padding: 30px;
+    padding: 10px;
 }
 
 
 article {
-    background-color: #E0F7FA ;
     border-radius: 15px;
     text-align: center;
     padding: 15px;
+    border: double;
+    border-color: #8db49c;
+    background-color: rgba(229, 252, 239, 0.927);
 }
 
-.clasedeapoyo {
-    background: linear-gradient(to bottom, blue, aqua, lightgrey);
-
+/*clasedeapoyo {
+    border: double;
+    border-color: #49e484;
+    background: linear-gradient(to bottom, rgb(235, 239, 187), rgba(229, 202, 69, 0.05), white);
+    
+    &:hover{
+        //font-size: xx-large;
+        zoom: 75%;
+}
+   
 }
 
 .ingreso {
-    background: linear-gradient(to bottom, rgb(138, 77, 173), rgb(230, 173, 212), lightgrey);
+    //background: linear-gradient(to bottom, rgb(138, 77, 173), rgb(230, 173, 212), lightgrey);//
+    border: double;
+    border-color: darkolivegreen;
     
-}
+}*/
 
 .general--imagen {
     transform: rotate(-10deg) translate(50px, 20px);
 }
 
-h5 {
+h2 {
      animation-duration: 2s;
      animation-name: aparecer;
-     animation-iteration-count: infinite;
+     //animation-iteration-count: infinite;//
+     animation-iteration-count: initial ;
     }
     
     @keyframes aparecer {
@@ -139,19 +151,10 @@ h5 {
         100% {opacity: 1;}
     }
 
-
-/*.nav--menu__flex{
-    display:flex;
-    flex-direction: row;
-    height: 60;
-    justify-content: end;
-    column-gap: 35px;
-    list-style-type: none;
-    /*align-items: center;
-        
-}*/
-  
-
+.card-text{
+    font-size: 120%; 
+    
+}
 
 /******************** GRIDS */
 
@@ -180,11 +183,10 @@ footer {
     grid-area: footer;
    /* position: fixed;*/
     bottom: 0;
-    width: 99%;
+    width: 100%;
     justify-content: center;
     gap: 10%;
     padding: 0.5rem 0;
-   /* justify-content:center;*/
 }
 
 
@@ -196,27 +198,9 @@ footer {
 }
 
 
-
-h1{
-    background: white;
-    
-    &:hover{
-            font-size: xx-large;
-    }
-}
-
-
 #grilla {
     display: grid;
 }
-
-.imgfooter {
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-}
-
-
 
 
 /*@media screen and (max-width: 320px) {
@@ -294,13 +278,13 @@ h1{
 
 
 
-.general{
+/*.general{
     width: calc(100vw / 2 - -500px);
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     margin: 30px;
-    /*background-color: rgb(167, 236, 236);*/
+    /*background-color: rgb(167, 236, 236);
     background-color: $colorHFN;
     border-radius: 15px;
 }
@@ -331,13 +315,14 @@ h1{
     margin: 30px;
     background-color: rgb(167, 236, 236);
     border-radius: 15px;
-}
+}*/
 
 .elementoclass{
     color: rgb(21, 21, 21);
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    display: flex;
 }
 
 .dividirSeccion{
