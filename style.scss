@@ -70,7 +70,6 @@ nav {
 h1 {
     display: inline;
     color: white;
-    //color: rgb(94, 34, 141);//
     font-weight: bold;
     font-size: 30px;
     font-style: italic;
@@ -132,16 +131,15 @@ article {
     border: double;
     border-color: darkolivegreen;
     
-}*/
+}
 
 .general--imagen {
     transform: rotate(-10deg) translate(50px, 20px);
-}
+}*/
 
 h2 {
      animation-duration: 2s;
      animation-name: aparecer;
-     //animation-iteration-count: infinite;//
      animation-iteration-count: initial ;
     }
     
@@ -189,14 +187,12 @@ footer {
     padding: 0.5rem 0;
 }
 
-
 /*header,*/
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 
 #grilla {
     display: grid;

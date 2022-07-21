@@ -107,12 +107,11 @@ article {
     border: double;
     border-color: darkolivegreen;
     
-}*/
-.general--imagen {
-  -webkit-transform: rotate(-10deg) translate(50px, 20px);
-          transform: rotate(-10deg) translate(50px, 20px);
 }
 
+.general--imagen {
+    transform: rotate(-10deg) translate(50px, 20px);
+}*/
 h2 {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
